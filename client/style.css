@@ -1,0 +1,534 @@
+body{
+margin: 0;
+padding: 0;
+}
+.box {
+    display: inline-block;
+    background: linear-gradient(25deg, #F13F79, #FFC778); 
+    color: white;
+    font-size: 25px;
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+  }
+  #messegeButA{
+    text-decoration: none;
+    color: white;
+  }
+  .btn {
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    border: 1px solid #005bac;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #005bac;
+    padding: 15px 10px 5px;
+    position: fixed;
+    text-align: center;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+      transition: all 0.3s ease;
+    z-index: 1;
+  }
+  .btn:hover {
+    background: #eef;
+  }
+  
+  .zoom {
+    bottom: 190px;
+  }
+  
+  .zoom-out {
+    bottom: 120px;
+  }
+  .zoom-init {
+    bottom: 50px;
+  }
+.dropDownClick{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    position: sticky;
+}
+.headerBut a{
+    text-decoration: none;
+}
+.dropDownClick:hover{
+    background-color: aquamarine;
+}
+.dropDownContainer{
+width: 100%;
+position: sticky;
+}
+#creditDivLogo{
+    background-image: url(./logo.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    border: 0.5px solid black; 
+}
+#logoHeaderContainer{
+    color:white;
+    height: 70px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13.5px;
+}
+
+.dropDownClick,.dropDownLinks{
+    font-size: 1.2rem;
+    font-family: futura Md BT;
+    border: none;
+    outline: none;
+    width: 200px;
+    color: white;
+    transition: 0.3s;
+
+}
+.dropDownList{
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 03s;
+}
+.newdropDownList{
+    transform: scaleY(1);
+}
+.dropDownLinks{
+    background-color: #222;
+}
+.dropDownLinks:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+#containerMain{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+}
+#videoWrap{
+    width: auto;
+}
+#photoLogo{
+    width: 100%;
+    height: 550px;
+    font-size: 20px;
+    text-align: left;
+    background-image: url(./architecture-building-construction-design-wallpaper-preview.jpg);
+    background-size: 100% 100%;
+    border-top: rgb(224, 188, 11) 2px solid;
+    border-bottom: rgb(224, 188, 11) 2px solid;
+    display: flex;
+    align-items: center;
+}
+#photoLogoH1{
+    background-image: url(./elegant-background-grey.jpg);
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 55px;
+    font-family: serif;
+    color: white;
+    border: 1.5px solid rgb(224, 188, 11);
+
+}
+#videoLogoH1{
+    background-image: url(./elegant-background-grey.jpg);
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    font-family: serif;
+    color: white;
+    border: 1.5px solid rgb(224, 188, 11);
+    text-align: center;
+    margin-right: 150px;
+}
+#inputForm{
+    background-image: url(./905606.jpg);
+    background-size: 100% 100%;
+    height: 1200px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#formInp1{
+    height: 50px;
+    width: 600px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+#formH{
+    font-size: 50px;
+    color: white;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-overflow: clip;
+    animation: slide-in 0.75s both;
+    background-color: rgb(138, 138, 138);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+#formInp2{
+    height: 50px;
+    width: 600px;
+    background-color:rgb(39, 39, 39);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}
+#formInp3{
+    height: 50px;
+    width: 600px;
+    background-color:rgb(39, 39, 39);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+    
+}
+#inpForm{
+    display: flex;
+    flex-direction: column;
+}
+#messegeForm{
+    height: 200px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    font-size: 20px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+
+}
+#sendBut{
+    width: 600px;
+    height: 75px;
+    background-color: rgb(8, 129, 181);
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+#formMain{
+    height: 57.5px;
+    width: 609.5px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border: rgb(158, 158, 158) solid 2px;
+}
+.formButton{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#videoLogo{
+    width: 100%;
+    height: 450px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    background-image: url(./905609.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.flexH1{
+    text-align: right;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.swiper{
+    width: 70%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 700px;
+}
+#main{
+    height: 1650px;
+    width: 100%;
+}
+.swiper-slide video{
+    width: 100%;
+    height:850px;
+}
+#creditH2{
+    text-decoration: underline;
+}
+#main-header{
+    height: 600px;
+    width: 100%;
+    background-image: url(./noybackround.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 2px solid rgb(224, 188, 11);
+}
+#mainData{
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;    
+}
+.container{
+    width: 50%;
+    height: 1000px;
+    background-image: url(./grey-material-design-4k-7l.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid black;
+}
+.swiper .swiper-button-prev{
+    color: black;
+}
+.swiper .swiper-button-next{
+    color: black;
+}
+/* #firstHeaderBackround{
+    background-image: url(./noybackround.png);
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    filter: blur(0.5px);
+    border-bottom: 2px solid yellow;
+    padding: 0;
+    margin: 0;
+} */
+#header-logo{
+    background-image: url(./noylogo.png);
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    animation: slide-in 0.75s both;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 188, 11);
+
+}
+@keyframes slide-in {
+    0% {
+      transform: translateY(-1000px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+#secondHeaderBackround{
+    background-image: url(./elegant-background-grey.jpg);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    height: 900px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+#creditDiv{
+    height: 350px;
+    width: 100%;
+    background-image: url(./IMG_1414.WEBP);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.headerBut{
+    background-color: rgb(224, 188, 11);
+    color: rgb(224, 188, 11);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+#secondHeaderBackround #noyh1{
+    font-size: 50px;
+    height: 70px;
+    color: rgb(224, 188, 11);
+}
+#secondHeaderBackround .noyp1{
+    font-size: 35px;
+    color: rgb(224, 188, 11);
+
+}
+#lastHeader{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#lastHeader #messegeBut{
+    color: white;
+    background-color:rgb(8, 129, 181);
+    border:  none;
+    height: 75px;
+    width: 500px;
+    font-size: 30px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width : 768px){
+    .swiper-slide video{
+        width: 100%;
+        height:550px;
+    }
+    #creditDiv{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    #photoLogo{
+        display: flex;
+        justify-content: center;
+    }
+    #containerMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .swiper{
+        width: 65%;
+        height: fit-content;
+    }
+    #formH{
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #formHBack{
+        display: flex;
+        align-items: center;    
+    }
+    #logoHeaderContainer{
+        display: none;
+    }
+    .swiper-slide img{
+        width: 100%;
+        height: 450px;
+    }
+    #formInp1{
+        height: 65px;
+        width: 350px;
+    }
+    #formInp2{
+        height: 65px;
+        width: 350px;
+    }    
+    #formInp3{
+        height: 65px;
+        width: 350px;
+    }
+    #inputForm{
+        height: 1400px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #messegeForm{
+        height: 350px;
+        width: 350px;
+    }
+    #formMain{
+        height: 65px;
+        width: 350px;
+    }
+    .container{
+        width: 100%;
+        height: 650px;
+        background: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #sendBut{
+        height: 50px;
+        width: 250px;
+        border-radius: 50px;
+    }
+    #buttomsDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    #secondHeaderBackround{
+        height: 1600px;
+        width: 100%;
+    }
+    #main-header{
+        height: 400px;
+        width: 100%;
+        align-items: center;
+    }
+    .headerBut{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-radius: 50px;
+        width: 350px;
+        height: 150px;
+    }
+    #videoLogo{
+        background-size: 100% 100%;
+    }
+    #secondHeaderBackround .noyp1{
+        height: 150px;
+    }
+    #lastHeader #messegeBut{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    
+    }
+
+};
